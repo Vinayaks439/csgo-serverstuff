@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ./csgo-ds
-screen -S "Counter-Strike: Global Offensive Server" ./srcds_run -game csgo -usercon +game_type 0 +game_mode 1 +mapgroup mg_bomb +map de_inferno +sv_setsteamaccount BF1405709E11BCDBD6656F34FF7CA94B -tickrate 128  -net_port_try 1 -port 27015 -maxplayers_override 12
+screen -S "Counter-Strike: Global Offensive Server" ./srcds_run -game csgo -usercon +game_type 0 +game_mode 1 +mapgroup mg_bomb +map de_inferno +sv_setsteamaccount "your GLST token" -tickrate 128  -net_port_try 1 -port 27015 -maxplayers_override 12
