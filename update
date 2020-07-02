@@ -1,0 +1,3 @@
+#!/bin/bash
+
+steamcmd +login "anonymous"  +force_install_dir "/home/steam/csgo-ds"  +app_update "740" +quit > /dev/null
